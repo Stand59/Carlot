@@ -2,7 +2,8 @@ import Card from "./Card";
 
 const cars = [
     'Mustang',
-    'Corvet'
+    'Corvet',
+    'MiniVan'
 ];
 
 const prices = [
@@ -10,7 +11,7 @@ const prices = [
     12000
 ];
 
-const CarNames = () => {
+const CarInfo = () => {
     return (
         <div>
             {cars.map((car) => (
@@ -20,16 +21,4 @@ const CarNames = () => {
     );
 };
 
-//have to get rid of one of these//
-
-const CarPrices = () => {
-    return (
-        <div>
-            {prices.map((price) => (
-                <Card cprices={price}/>
-            ))}
-        </div>
-    )
-}
-
-export default {CarNames, CarPrices} ;
+export default CarInfo;
