@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import Card from './components/Card';
-import CarInfo from './components/CarNames';
+import CarInfo from './components/CarInfo';
 
 function App() {
   return (
