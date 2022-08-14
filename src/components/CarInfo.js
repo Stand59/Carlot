@@ -1,22 +1,23 @@
-
+import Card from "./Card";
 import corvet from "../assets/corvet.jpg"
 import mustang from "../assets/download.jpg"
 
+
 const cars = [
     {
-        name: "Mustang",
+        name: "mustang",
         cost: 21000,
-        image: {mustang}
+        image: corvet
     },
     {
-        name: "Corvet",
+        name: "corvet",
         cost: 23329,
-        image: {corvet}
+        image: mustang
     },
     {
         name: "VW",
         cost: 4000000,
-        image: {corvet}
+        image: corvet
     }
 ];
 
@@ -25,26 +26,10 @@ const CarInfo = () => {
     return (
         <div>
             {cars.map(({name, cost, image}) => (
-                <Card names={name} prices={cost} src={image}/>
+                <Card names={name} prices={cost} img={image}/>
             ))}
         </div>
     );
 };
 
-const Card = (props) => {
-    return (
-        <div>
-            <card className="card">
-                <img src={require('../assets/corvet.jpg')} alt={props.names}></img>
-                <div className="container">
-                    <h4><b>{props.names}</b></h4>
-                    <p>{props.prices}</p>
-                </div>
-            </card>
-            <img src='{props.image}' alt={props.names}></img>
-        </div>
-       
-    );
-}
-
-export default {Card, CarInfo};
+export default CarInfo;
