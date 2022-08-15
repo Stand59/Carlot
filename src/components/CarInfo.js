@@ -26,15 +26,15 @@ const cars = [
 const CarInfo = () => {
     return (
         <div>
-            <Container display="flex">
+            <Container display="ms-auto">
                 <Row>
-                    <Col>
-                        {cars.map(({name, cost, image}) => (
+                    {cars.map(({name, cost, image}) => (
+                        <Col md='2' className='m-4' key={cars.id}>
                             <Card names={name} prices={cost} img={image}/>
-                        ))}
-                    </Col>
+                        </Col>
+                    ))}
                 </Row>
-            </Container>
+            </Container> 
         </div>
     );
 };
