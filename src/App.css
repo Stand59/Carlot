@@ -14,7 +14,7 @@
    border: 2px solid #e7e7e7;
    border-radius: 4px;
    padding: .5rem;
-   background-color: rgba(0, 0, 0, 0.2);
+   background-color: pink;
    height: 210px
 }
 
@@ -41,7 +41,7 @@
 }
 
 /* Remove extra left and right margins, due to padding in columns */
-.row {margin: 0 -5px;}
+.row {margin: 0 -100px;}
 
 /* Clear floats after the columns */
 .row:after {

@@ -1,17 +1,17 @@
 import Card from "./Card";
-import corvet from "../assets/corvet.jpg"
+import corvette from "../assets/corvette.jpg"
 import mustang from "../assets/download.jpg"
 import vw from "../assets/download-1.jpg"
 import { Container, Row, Col } from "reactstrap";
 
 const cars = [
     {
-        name: "Mustang",
+        name: "Corvette",
         cost: 21000,
-        image: corvet
+        image: corvette
     },
     {
-        name: "Corvet",
+        name: "Mustang",
         cost: 23329,
         image: mustang
     },
@@ -19,7 +19,67 @@ const cars = [
         name: "VW",
         cost: 4000000,
         image: vw
-    }
+    },
+    {
+        name: "VW",
+        cost: 4000000,
+        image: vw
+    },
+    {
+        name: "VW",
+        cost: 4000000,
+        image: vw
+    },
+    {
+        name: "VW",
+        cost: 4000000,
+        image: vw
+    },
+    {
+        name: "VW",
+        cost: 4000000,
+        image: vw
+    },
+    {
+        name: "VW",
+        cost: 4000000,
+        image: vw
+    },
+    {
+        name: "VW",
+        cost: 4000000,
+        image: vw
+    },
+    {
+        name: "VW",
+        cost: 4000000,
+        image: vw
+    },
+    {
+        name: "VW",
+        cost: 4000000,
+        image: vw
+    },
+    {
+        name: "VW",
+        cost: 4000000,
+        image: vw
+    },
+    {
+        name: "VW",
+        cost: 4000000,
+        image: vw
+    },
+    {
+        name: "VW",
+        cost: 4000000,
+        image: vw
+    },
+    {
+        name: "VW",
+        cost: 4000000,
+        image: vw
+    },
 ];
 
 
@@ -29,7 +89,7 @@ const CarInfo = () => {
             <Container display="ms-auto">
                 <Row>
                     {cars.map(({name, cost, image}) => (
-                        <Col md='2' className='m-4' key={cars.id}>
+                        <Col key={cars.id}>
                             <Card names={name} prices={cost} img={image}/>
                         </Col>
                     ))}
