@@ -4,15 +4,16 @@ import  '../App.css';
 
 
 
-const Card = (props) => {
+const Card = ({car}) => {
+    const { image, name, cost} = car;
     return (
-        <card className="card">
-                <img src={props.img} alt={props.names}></img>
+        <div className="card">
+                <img src={image} alt={name}></img>
             <div className="container">
-                <h4><b>{props.names}</b></h4>
-                <p>Price: ${props.prices}</p>
+                <h4><b>{name}</b></h4>
+                <p>Price: ${cost}</p>
             </div>
-        </card>      
+        </div>      
     );
 };
 
