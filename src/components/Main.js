@@ -12,7 +12,7 @@ const Main = () => {
                         <CarInfo/>
                     </Col>
                     <Col>
-                        <SideNav/>
+                        <SideNav />
                     </Col>
                 </Row>
             </Container>
