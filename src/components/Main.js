@@ -6,7 +6,7 @@ import { Row, Container, Col } from 'reactstrap';
 const Main = () => {
     return(
         <>
-            <Container display="ms-auto" className='this'>
+            <Container  className='this'>
                 <Row>
                     <Col className='col-11'>
                         <CarInfo/>

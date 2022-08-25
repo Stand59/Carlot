@@ -59,14 +59,12 @@
 }
 
 .this {
-  margin-left: 0 !important; 
-  margin-right: 0 !important; 
+ 
 }
 
 .pink {
   height: 150px;
   background-color: pink !important;
-  top: 40px;
 }
 
 height: 100%;
