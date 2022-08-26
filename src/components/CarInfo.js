@@ -2,6 +2,7 @@ import Card from "./Card";
 import corvette from "../assets/corvette.jpg"
 import mustang from "../assets/download.jpg"
 import vw from "../assets/download-1.jpg"
+import '../App.css';
 import { Container, Row, Col } from "reactstrap";
 
 const cars = [

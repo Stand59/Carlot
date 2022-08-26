@@ -5,11 +5,20 @@ const SideNav = () => {
     return(
         <body className="pink">
             <div >
+                <br></br>
+                <br></br>
+                <br></br>
                 <a href="#">About</a>
+                <br></br>
+                <br></br>
                 <br></br>
                 <a href="#">Services</a>
                 <br></br>
+                <br></br>
+                <br></br>
                 <a href="#">Clients</a>
+                <br></br>
+                <br></br>
                 <br></br>
                 <a href="#">Contact</a>
             </div>

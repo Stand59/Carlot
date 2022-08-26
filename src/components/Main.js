@@ -1,21 +1,21 @@
 import  '../App.css';
 import CarInfo from './CarInfo';
 import SideNav from './SideNav';
+import Title from './Title';
 import { Row, Container, Col } from 'reactstrap';
 
 const Main = () => {
     return(
         <>
-            <Container  className='this'>
+            <Title className='title' />
+            <Container className='this'>
                 <Row>
-                    <Col className='col-11'>
+                    <Col className='col-12'>
                         <CarInfo/>
-                    </Col>
-                    <Col>
-                        <SideNav />
                     </Col>
                 </Row>
             </Container>
+            <SideNav className="pink" />
         </>
     );
 }; 
