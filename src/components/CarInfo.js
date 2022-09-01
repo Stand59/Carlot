@@ -24,13 +24,15 @@ const cars = [
         id:0,
         name: "Corvette",
         cost: 21000,
-        image: corvette
+        image: corvette,
+        color: 'red'
     },
     {
         id:1,
         name: "Mustang",
         cost: 23329,
-        image: mustang
+        image: mustang,
+        color: 'black'
     },
     {
         id:2,
@@ -54,7 +56,8 @@ const cars = [
         id:5,
         name: "Slugbug",
         cost: 14932,
-        image: slugbug
+        image: slugbug,
+        color: 'red'
     },
     {
         id:6,
@@ -66,19 +69,22 @@ const cars = [
         id:7,
         name: "Heli-car",
         cost: 400000000,
-        image: helicopter
+        image: helicopter,
+        color: 'black'
     },
     {
         id:8,
         name: "B.A. Van",
         cost: 789888,
-        image: bavan
+        image: bavan,
+        color: 'black'
     },
     {
         id:9,
         name: "armored car",
         cost: 3000000,
-        image: armor
+        image: armor,
+        color: 'black'
     },
     {
         id:10,
@@ -96,19 +102,22 @@ const cars = [
         id:12,
         name: "Herse",
         cost: 20444,
-        image: herse
+        image: herse,
+        color: 'black'
     },
     {
         id:13,
         name: "Death Star",
         cost: '999999999',
-        image: deathstar
+        image: deathstar,
+        color: 'black'
     },
     {
         id:14,
         name: "Low Rider",
         cost: 8050,
-        image: lowrider
+        image: lowrider,
+        color: 'red'
     },
 ];
 
